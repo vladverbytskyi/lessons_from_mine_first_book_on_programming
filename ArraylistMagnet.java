@@ -1,7 +1,7 @@
 import java.util.*;
 public class ArraylistMagnet {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         ArrayList<String> a = new ArrayList<String>();
         a.add(0, "ноль");
@@ -22,7 +22,7 @@ public class ArraylistMagnet {
         printAL(a);
 
 
-        if (a.indexOf("четыре") !=4) {
+        if (a.indexOf("четыре") != 4) {
             a.add(4, "4.2");
         }
         printAL(a);
@@ -30,28 +30,13 @@ public class ArraylistMagnet {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public static void printAL (ArrayList<String> al) {
+    public static void printAL(ArrayList<String> al) {
 
         for (String element : al) {
             System.out.print(element + " ");
         }
         System.out.println(" ");
     }
+
+    
 }
